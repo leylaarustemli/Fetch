@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 191, 0);
+}
+.card{
+  width: 700px;
+  background-color: rgba(6, 37, 73, 0.952);
+  padding: 20px;
+  border-radius: 8px;
+}
+.img-left img{
+    width: 180px;
+    height: 220px;
+}
+.header-card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+   
+}
+.header-card input{
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(9, 49, 96, 0.73);
+   outline: none;
+   border: 1px solid grey;
+}
+.header-card button{
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 191, 0);
+    color: black;
+}
+.top-card{
+    display: flex;
+    
+}
+.top-right{
+    display: flex;
+    align-items: center;
+   width: 100%;
+    flex-direction: column;
+}
+.top-right .title{
+    color: grey;
+}
+.icon{
+    margin-top: 15px;
+    color: white;
+}
+.icon i{
+    color: rgb(255, 191, 0);
+}
+.title{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.three-btn{
+    display: flex;
+   gap: 35px;
+   margin-top: 10px;
+   color: white;
+}
+.footer-card{
+    /* padding: 25px; */
+    margin-top: 18px;
+}
+.three-btn p{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 4px;
+}
+.plot h3{
+    margin-top: 15px;
+    color: white;
+}
+.plot p{
+    margin-top: 7px;
+    color: grey;
+}
+.top-right h2{
+    color: white;
+}
+
+@media only screen and (max-width:500px){ 
+   .top-card{
+    flex-direction: column;
+    align-items: center;
+   }
+}
